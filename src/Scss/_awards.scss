@@ -1,0 +1,53 @@
+.awards {
+  background-color: #f4dc00;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5%;
+  h4 {
+    text-transform: uppercase;
+    opacity: 0.5;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 20%;
+    width: 75%;
+    h1 {
+      font-size: clamp(2.3rem, calc(0.5369rem + 5.6875vw), 11.4rem);
+      line-height: 100%;
+      padding-top: 36%;
+      padding-bottom: 6%;
+    }
+    h4 {
+      opacity: 1;
+      padding-bottom: 30%;
+    }
+  }
+  .aside-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 515px;
+    p {
+      font-weight: bold;
+    }
+  }
+  .aside-two {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    img {
+      max-width: 250px;
+      min-width: 50px;
+      height: auto;
+
+      padding: 0 5px;
+      padding-top: 25px;
+    }
+  }
+}

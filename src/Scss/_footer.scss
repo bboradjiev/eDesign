@@ -1,0 +1,51 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #262626;
+  color: white;
+  img {
+    width: 250px;
+    height: auto;
+    margin: 2% 0;
+  }
+  p {
+    max-width: 400px;
+    text-align: center;
+    margin: 1% 0;
+  }
+  .uppercase {
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  form {
+    border: none;
+    margin: 1% 0;
+    input {
+      padding-left: 15px;
+    }
+    button {
+      padding: 1px 20px;
+      background-color: #0275d8;
+      color: white;
+    }
+  }
+  a {
+    text-transform: uppercase;
+    color: #f4dc00;
+    padding-bottom: 1px;
+    text-decoration: underline;
+  }
+  .media {
+    display: flex;
+    margin: 20px 0;
+    a {
+      margin: 0 20px;
+      img {
+        height: 48px;
+        width: auto;
+      }
+    }
+  }
+}

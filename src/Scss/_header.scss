@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 60px 60px;
+
+  .links {
+    max-width: 1000px;
+    min-width: 250px;
+  }
+
+  a {
+    background-color: transparent;
+    text-transform: uppercase;
+    padding-left: 66px;
+    font-weight: bold;
+    font-size: clamp(1.2rem, calc(1.1225rem + 0.25vw), 1.6rem);
+    color: white;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .hamburger {
+    display: none;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+  }
+  span {
+    margin-right: 60px;
+  }
+  .logo {
+    z-index: 2;
+    width: 100%;
+    max-width: 320px;
+    min-width: 200px;
+    height: auto;
+  }
+}
